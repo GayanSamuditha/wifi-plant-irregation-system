@@ -17,8 +17,8 @@ SoftwareSerial serialEsp(10, 11);
 
 #include "UbidotsMicroESP8266.h"
 #define TOKEN  "sjgs45k704meorim80"  // Put here your Ubidots TOKEN
-#define WIFISSID "Hetti-WiFi"
-#define PASSWORD "samsung123"
+#define WIFISSID "wifi SSID name"
+#define PASSWORD "wifi password"
 
 #define LEAK_PIN  2  // Arduino Digital I/O pin number
 #define CHILD_ID_LEAK 0
